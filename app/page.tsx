@@ -9,7 +9,7 @@ export default function Home() {
   useHotkeys("a", () => setCount(c => c + 1))
 
   return (
-    <div>
+    <div className="--plex-mono">
       <p>home page</p>
       <span>pressed a {count} times</span>
     </div>
