@@ -9,6 +9,10 @@ export default function TiszaLogo() {
         delay: 2,
         config: {
             duration: 1600
+        },
+        onResolve: () => {
+            const chime = new Audio("/audio/chime-and-chomp.mp3")
+            chime.play()
         }
     })
 
